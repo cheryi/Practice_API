@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/northButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台北"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/middleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台中"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/southButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台南"
+        tools:layout_editor_absoluteX="497dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/northText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台北的天氣"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/middleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台中的天氣"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/southText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台南的天氣"
+        tools:layout_editor_absoluteX="513dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+
+</android.support.constraint.ConstraintLayout>
